@@ -49,7 +49,7 @@ pipeline {
 
     post {
         success {
-            // Actions to perform when the pipeline succeeds
+            // Actions to perform when the pipeline succeeds. ok
             echo 'Pipeline succeeded!'
         }
         failure {
