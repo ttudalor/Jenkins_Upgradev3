@@ -10,8 +10,6 @@ pipeline {
       stage('Audit tools') {
         steps {
           sh '''
-	      sudo apt update && sudo apt upgrade -y
-	      sudo apt install maven -y
               git version
               java -version
               mvn -version
